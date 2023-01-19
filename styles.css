@@ -1,0 +1,117 @@
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: darkgrey;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color:  #005789;
+    color: white;
+    padding: 1rem;
+    border-bottom: 1px solid yellow;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header a {
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid yellow;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav li :hover {
+    background-color: yellow;
+    color: #005789;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main */
+main {
+    margin: 2rem;
+    border: 1px solid  #005789;
+    padding: 1rem;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #005789;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #005789;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* Section */
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+section p {
+    margin-bottom: 1em;
+}
+
+section label {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+    color: #005789;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color:  #005789;
+    color: white;
+    padding: 1rem;
+    border-bottom: 1px solid yellow;
+    text-align: center;
+}
