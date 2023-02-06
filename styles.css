@@ -1,16 +1,21 @@
+:root{
+    --dark-grey: #424242;  
+    --nice-blue: #005789;
+}
 
-/* Body */
+
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: darkgrey;
+    color: var(--dark-grey);
     background-color: white;
+    max-width: 38rem;
 }
 
-/* Header */
 header {
-    background-color:  #005789;
+    background-color: var(--nice-blue);
     color: white;
     padding: 1rem;
     border-bottom: 1px solid yellow;
@@ -44,7 +49,7 @@ nav li {
 
 nav li :hover {
     background-color: yellow;
-    color: #005789;
+    color: var(--nice-blue);
 }
 
 nav a {
@@ -53,23 +58,22 @@ nav a {
 }
 
 
-/* Main */
 main {
     margin: 2rem;
-    border: 1px solid  #005789;
+    border: 1px solid  var(--nice-blue);
     padding: 1rem;
 }
 
 main h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    color: #005789;
+    color:var(--nice-blue);
 }
 
 main h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #005789;
+    color:var(--nice-blue);
 }
 
 main p {
@@ -79,10 +83,9 @@ main p {
 main img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+    border: 1px solid var(--nice-blue);
 }
 
-/* Section */
 section {
     margin-bottom: 2em;
 }
@@ -103,13 +106,13 @@ section label {
 
 /* Links */
 a {
-    color: #005789;
+    color: var(--nice-blue);
     text-decoration: none;
 }
 
 
 footer {
-    background-color:  #005789;
+    background-color:  var(--nice-blue);
     color: white;
     padding: 1rem;
     border-bottom: 1px solid yellow;
